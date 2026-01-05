@@ -20,9 +20,9 @@ class AdminFactory extends Factory
     {
         return [
             'name' => 'admin',
-            'email' => 'admin@email.com',
+            'email' => 'ashammad99@gmail.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('12345678'),
             'remember_token' => Str::random(10),
         ];
     }
